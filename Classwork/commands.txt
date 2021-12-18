@@ -1,0 +1,11 @@
+pwd- to see the absolute path of a working directory
+ls- to see the name of the file
+mkdir- to create a directory
+touch- to create a file
+rm- to remove a file
+rmdir- to remove a directory
+cd ..- to come to the previous directory
+mv- to move a file to a directory
+echo >>- to write something in a file
+echo- to print something in the terminal
+vi- to edit a file

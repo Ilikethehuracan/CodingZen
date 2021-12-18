@@ -1,0 +1,9 @@
+git init- starts tracking this folder
+git status- status of all files in folder that are being tracked
+git add (then space, then name of file)- to start tracking a file
+git add (then space, then .)- to track all files in a folder
+every time you make changes do "git add ." again
+git commit -m "message here"- It saves the version
+git log- to see all the versions
+git revert (then space, and the hash value (different colored string))- to go back to that version
+git clone (repo url)- to download all the code from a github repo
