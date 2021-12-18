@@ -9,3 +9,11 @@ mv- to move a file to a directory
 echo >>- to write something in a file
 echo- to print something in the terminal
 vi- to edit a file
+
+
+
+after each class and after you do homework, go to the "advancedjs" folder in terminal and type:
+
+git add .
+git commit -m "date here"
+git push origin main
