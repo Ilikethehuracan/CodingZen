@@ -9,6 +9,11 @@ mv- to move a file to a directory
 echo >>- to write something in a file
 echo- to print something in the terminal
 vi- to edit a file
+clear- to clear the terminal screen
+find- to find files or directories
+open- to open a file and the directory
+man- to open the user manual for the command
+cat- to see the contents of a file
 
 
 
