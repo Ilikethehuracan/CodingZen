@@ -1,0 +1,1 @@
+Modules are simple javascript files and they can contain variables, functions, classes, objects, etc. that can be exported to different files
