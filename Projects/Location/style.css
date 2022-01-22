@@ -1,0 +1,132 @@
+.location{ 
+    background-color: black;
+    color: gold;
+    height: 50px;
+    width: 200px;
+    font-family: cursive;
+    font-size: 23px;
+    border-radius: 10px;
+    border-top: 3px solid goldenrod;
+    border-right: 3px solid goldenrod;
+    border-left: 3px solid dimgrey;
+    border-bottom: 3px solid dimgrey;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-top: 20px;
+}
+#body{ 
+    background-color: gold;
+    font-family: cursive !important;
+    font-size: 23px;
+    cursor:default;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x:hidden !important;
+    margin: 0;
+}
+.paras:hover{ 
+transform: scale(1.2);
+text-decoration: underline;
+}
+.paras{ 
+    transition-duration: 0.3s;
+}
+.location:hover{ 
+    border-left: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    border-top: 3px solid dimgrey;
+    border-right: 3px solid dimgrey;
+    transform: scale(0.985);
+    color: rgb(238, 255, 0);
+    background-color: rgb(41, 41, 41);
+}
+.maps{ 
+    border-radius: 5%;
+    background-color: black;
+    margin:0;
+    /* Can't add border???? */
+}
+.mapdiv{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin:0;
+}
+.heading{ 
+    font-weight: 900;
+    transition-duration: 0.5s;
+    background:radial-gradient(whitesmoke, white, gold, goldenrod, grey, rgb(37, 37, 37), black);
+    color:black;
+    width: 100%;
+    margin-top: 0;
+}
+.heading:hover{ 
+    text-decoration: underline;
+    transform:scale(1.05);
+}
+.updates{ 
+    font-weight: 900;
+    transition-duration: 0.5s;
+    background:linear-gradient(to right, whitesmoke, white, gold, goldenrod, grey, rgb(37, 37, 37), black);
+    color:black;
+    width: 100%;
+    margin-bottom: 0;
+}
+.updates:hover{ 
+    text-decoration: underline;
+    transform:scale(1.05);
+}
+.hidemap{ 
+    background-color: black;
+    color: gold;
+    height: 50px;
+    width: 200px;
+    font-family: cursive;
+    font-size: 23px;
+    border-radius: 10px;
+    border-top: 3px solid goldenrod;
+    border-right: 3px solid goldenrod;
+    border-left: 3px solid dimgrey;
+    border-bottom: 3px solid dimgrey;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin:0;
+    margin-bottom: 20px;
+}
+.showmap{ 
+    background-color: black;
+    color: gold;
+    height: 50px;
+    width: 200px;
+    font-family: cursive;
+    font-size: 23px;
+    border-radius: 10px;
+    border-top: 3px solid goldenrod;
+    border-right: 3px solid goldenrod;
+    border-left: 3px solid dimgrey;
+    border-bottom: 3px solid dimgrey;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin:0;
+    margin-bottom: 20px;
+}
+.hidemap:hover{ 
+    border-left: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    border-top: 3px solid dimgrey;
+    border-right: 3px solid dimgrey;
+    transform: scale(0.985);
+    color: rgb(238, 255, 0);
+    background-color: rgb(41, 41, 41);
+}
+.showmap:hover{ 
+    border-left: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    border-top: 3px solid dimgrey;
+    border-right: 3px solid dimgrey;
+    transform: scale(0.985);
+    color: rgb(238, 255, 0);
+    background-color: rgb(41, 41, 41);
+}

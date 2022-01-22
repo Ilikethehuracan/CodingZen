@@ -1,3 +1,3 @@
-var hi = require("MathModule.js")
+var hi = require("./MathModule.js")
 
-console.log(hi.addition)
+console.log(hi.add(5, 7))

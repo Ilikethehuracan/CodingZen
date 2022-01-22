@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="icons8-map-64.png" rel=" icon">
+    <title>Moordinates- easily see your coordinates!</title>
+</head>
+
+<body id="body">
+    <header class="top">
+        <h1 class="heading"> Welcome to Moordinates©! Just click the button to see your coordinates!</h1>
+    </header>
+    <button class="location" onclick="ShowLocation()"> Show my location!</button>
+    <p id="lat" class="paras"> Latitude: </p>
+    <p id="long" class="paras"> Longitude: </p>
+    <br>
+    <button class="hidemap" onclick="hidemap()">Hide Map</button>
+    <button class="showmap" onclick="showmap()">Show Map</button>
+    <br>
+    <div class="mapdiv">
+        <iframe class="maps" src="#" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            id="map"></iframe>
+    </div>
+    <footer class="bottom">
+        <h1 class="updates"> More updates coming soon!</h1>
+    </footer>
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

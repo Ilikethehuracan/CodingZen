@@ -1,17 +1,36 @@
+function add(num1, num2) {
+    return num1 + num2
+}
 
-var addition = Math.random() * 100 + Math.random() * 100
-Math.floor(addition)
+function subtract(num1, num2) {
+    return num1 - num2
+}
 
-var subtract = Math.random() * 100 - Math.random() * 100
-Math.floor(subtraction)
+function multiply(num1, num2) {
+    return num1 * num2
+}
 
-var multiply = Math.random() * 100 * Math.random() * 100
-Math.floor(multiply)
+function divide(num1, num2) {
+    return num1 / num2
+}
 
-var divide = Math.random() * 100 / Math.random() * 100
-Math.floor(divide)
+function pi() {
+    return Math.PI
+}
 
-var pi = Math.PI
-Math.floor(pi)
+function circle(radius) {
+    return Math.PI * radius * radius
+}
 
-module.exports = { addition, subtraction, multiply, divide, pi }
+function triangle(base, height) {
+    return base * height * 0.5
+}
+
+function rectangle(length, width) {
+    return length * width
+}
+function square(side) {
+    return side * side
+}
+
+module.exports = { add, subtract, multiply, divide, pi, circle, triangle, rectangle, square }
