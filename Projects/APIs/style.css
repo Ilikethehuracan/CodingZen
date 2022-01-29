@@ -1,0 +1,74 @@
+body{ 
+    height: 100vh;
+    cursor: default;
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(255, 217, 0), rgb(255, 166, 0), orange, orange);
+    font-family: 'Raleway', sans-serif;
+    color:dodgerblue;
+    font-weight: 900;
+    font-size: 25px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#inp{ 
+    cursor: default;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: 900;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    border-left: 3px solid maroon;
+    border-bottom: 3px solid maroon;
+    border-right: 3px solid rgb(255, 217, 0);
+    border-top: 3px solid rgb(255,217,0);
+    transition-duration: 0.7s;
+    font-size: 25px;
+}
+button{ 
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: 900;
+    height: 72px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    border-right: 3px solid maroon;
+    border-top: 3px solid maroon;
+    border-left: 3px solid rgb(255, 217, 0);
+    border-bottom: 3px solid rgb(255,217,0);
+    transition-duration: 0.7s;
+    font-size: 25px;
+}
+::placeholder{ 
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: 900;
+    font-size: 25px;
+}
+#inp{ 
+    outline: none;
+}
+#inp:hover{ 
+    border-right: 3px solid maroon;
+    border-top: 3px solid maroon;
+    border-left: 3px solid rgb(255, 217, 0);
+    border-bottom: 3px solid rgb(255,217,0);
+}
+button:hover{ 
+    border-left: 3px solid maroon;
+    border-bottom: 3px solid maroon;
+    border-right: 3px solid rgb(255, 217, 0);
+    border-top: 3px solid rgb(255,217,0);
+}
+p{ 
+    transition-duration: 0.5s;
+}
+p:hover{ 
+    text-decoration: underline;
+    color: maroon;
+    transform: scale(1.2);
+}
