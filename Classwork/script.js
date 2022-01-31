@@ -5,13 +5,8 @@ for (let i = 2; i <= 5000; i++) {
     }
 }
 console.log(count)
-// VIRUS
 
-var fs = require("fs")
-
-
-
-
-for (let i = 1; i <= 10000; i++) {
-    fs.writeFile(i + ".txt", "Krish is the best", (error) => { });
-}
+var me = "Krish"
+var a = "11"
+var sentence = `My name is ${me} and my I am ${a} years old.`
+console.log(sentence)

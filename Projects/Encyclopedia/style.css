@@ -1,0 +1,56 @@
+body{ 
+background-color: #4831D4;
+color: #CCF381;
+font-family: 'MuseoModerno', cursive;
+font-size: 20px;
+overflow-x: hidden;
+text-align: center;
+cursor: default;
+}
+.btns{ 
+height: 50px;
+width: 200px;
+font-size: 20px;
+background-color: #CCF381;
+color: #4831D4;
+font-family: 'MuseoModerno', cursive;
+margin: 10px;
+text-align: center;
+border-radius: 5px;
+border-left: 3px solid dodgerblue;
+border-bottom: 3px solid dodgerblue;
+border-right: 3px solid limegreen;
+border-top: 3px solid limegreen;
+transition-duration: 0.5s;
+}
+input{ 
+    outline: none;
+}
+::placeholder{ 
+    text-align: center;
+}
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+#para1{ 
+transition-duration: 0.5s;
+font-weight: 900;
+}
+#para1:hover{
+    text-decoration: underline;
+    transform: scale(0.995);
+    font-weight: 100;
+}
+.btns:hover{ 
+    border-right: 3px solid dodgerblue;
+border-top: 3px solid dodgerblue;
+border-left: 3px solid limegreen;
+border-bottom: 3px solid limegreen;
+}
