@@ -1,0 +1,91 @@
+body{ 
+    height: 100vh;
+    text-align: center;
+    background-color:lightcoral;
+    color: lightblue;
+    font-family:fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: default;
+}
+.timerBox{ 
+    border: 10px groove lightblue;
+    background-color: skyblue;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    color: lightcoral;
+}
+.timer{ 
+    text-align: center;
+    transition-duration: 0.5s;
+    font-size: 50px;
+}
+.timer:hover{ 
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+.btn1{ 
+    height: 200px;
+    width: 400px;
+    border-radius: 30%;
+    font-family: fantasy;
+    background-color: lightcoral;
+    color: lightblue;
+    font-size: 60px;
+    text-align: center;
+    transition-duration: 0.3s;
+    border: 5px solid coral;
+}
+.btn1:hover{ 
+    text-decoration: underline;
+    background-color: coral;
+    border: 5px solid lightcoral;
+}
+.btn1:active{ 
+    transform: scale(0.99);
+}
+.btn2{ 
+    height: 200px;
+    width: 400px;
+    border-radius: 30%;
+    font-family: fantasy;
+    background-color: lightcoral;
+    color: lightblue;
+    font-size: 60px;
+    text-align: center;
+    transition-duration: 0.3s;
+    border: 5px solid coral;
+}
+.btn2:hover{ 
+    text-decoration: underline;
+    background-color: coral;
+    border: 5px solid lightcoral;
+}
+.btn2:active{ 
+    transform: scale(0.99);
+}
+.btn3{ 
+    height: 200px;
+    width: 400px;
+    border-radius: 30%;
+    font-family: fantasy;
+    background-color: lightcoral;
+    color: lightblue;
+    font-size: 60px;
+    text-align: center;
+    transition-duration: 0.3s;
+    border: 5px solid coral;
+}
+.btn3:hover{ 
+    text-decoration: underline;
+    background-color: coral;
+    border: 5px solid lightcoral;
+}
+.btn3:active{ 
+    transform: scale(0.99);
+}

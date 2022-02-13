@@ -1,9 +1,10 @@
 function See() {
     var month = document.getElementById("inp2").value
     var day = document.getElementById("inp1").value
+    var maxDays = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     fetch(`https://history.muffinlabs.com/date/${month}/${day}`).then(response1).then(responseFinal)
-    if (day > 31) {
-        alert("The day number is more than 31... please enter a valid day!")
+    if (day > maxDays[month - 1] || day < 0) {
+        alert("This is not a valid date!")
     }
     if (month > 12) {
         alert("The month number is more than 12... please enter a valid month!")
