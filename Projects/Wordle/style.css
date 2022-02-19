@@ -1,0 +1,42 @@
+body{ 
+    color: black;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    cursor: default;
+}
+.header{ 
+    font-family: 'nyt-karnakcondensed' !important;
+    font-weight: 900;
+    text-align: center;
+    font-size: 37px;
+    letter-spacing:0.01em;
+}
+.top{ 
+    border-bottom: 2px solid lightgrey;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icongroup1{ 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu{ 
+    position: absolute;
+    left: 0px;
+}
+.question{ 
+    position: absolute;
+left: 70px;
+}
+.stats{ 
+    position: absolute;
+    right: 70px;
+}
+.settings{
+    position: absolute;
+    right: 0px;
+}

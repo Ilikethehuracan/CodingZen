@@ -1,0 +1,49 @@
+body{ 
+    padding: 20px;
+    overflow-x: hidden;
+    cursor: default;
+    background-color: dodgerblue;
+}
+.card{ 
+    margin: 10px;
+    border: 5px groove white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 700px;
+    width: 100%;
+}
+.btn{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 20%;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
+    transition-duration: 0.5s;
+    margin-top: 50px;
+}
+.btn:hover{ 
+    color: dodgerblue;
+    background-color: white;
+    border: 2px solid dodgerblue;
+}
+.display-1{ 
+    font-family: cursive;
+    color: white;
+    transition-duration: 0.5s;
+}
+.bookimg{
+    border-radius: 50px;
+    border: 3px solid white;
+}
+.display-1:hover{ 
+transform: scale(1.1);
+text-decoration: underline;
+}
